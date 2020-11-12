@@ -1,0 +1,12 @@
+algorithm_name: PLVF
+test_problem: DTLZ2
+problem_param:
+number_variable 17
+number_objective 8
+popSize: 275
+max_evaluation: 1285000
+runtime_output: 1
+output_interval: 10
+run_index_begin: 1
+run_index_end: 1
+analyse: FUN
