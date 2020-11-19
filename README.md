@@ -2,7 +2,7 @@
 This repository consists of experimental codes based on the paper "[**Interactive Decomposition Multiobjective Optimization Via Progressively Learned Value Functions**](https://ieeexplore.ieee.org/document/8531708)", published in IEEE TRANSACTIONS ON FUZZY SYSTEMS 2019 by Ke Li et al.
 
 ## Introduction
-The paper above develops an interactive framework for the decomposition-based EMO algorithm to lead a DM to the preferred solutions of her/his choice. This framework consists of three modules, i.e., consultation, preference elicitation and optimization.
+The paper above develops an interactive framework for the decomposition-based EMO algorithm to lead a DM to the preferred solutions of her/his choice. This framework consists of three modules, i.e., consultation, preference elicitation and optimization.</br>
 In our experimental project, we collect scores of promising individuals every consultation segment, which carry the preference information towards every individual of the DM. Then, we use RBFN to learn a latent function which preserves the preference level of every individual as accurate as possible. When it comes to the way of scoring by the DM, we have tried two different ways, i.e., Chebycheff and cosine value function. Every time the RBFN has improved its capability to express the preference information of DM towards different individuals via the latest dataset, the reference points will be adjusted to guide the whole population towards the ROI of DM.
 
 ## Run the codes
