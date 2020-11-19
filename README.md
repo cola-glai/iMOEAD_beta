@@ -10,7 +10,13 @@ This version of project is almostly written in C except that we have used the ei
 Parameters you may need to tune are as follows:
 + Population size
 + Types of test problem.
-+ 
++ Number of varibles of the test problem.
++ Number of objective functions of the test problem.
++ Step size.
++ Number of generations between consultations with DM
++ Scoring way of DM.
++ Utopia reference point or Golden point.
++ Maximum number of iterations.
 
 
 
